@@ -1,0 +1,20 @@
+input{
+    width: 250px;
+    background: #d3d3d3;
+}
+input:focus{
+    outline: none;
+    width: 350px;
+    transition: width 200ms ease-out;
+}
+
+@media (max-width:768px) {
+    input{
+    width: 200px;
+}
+    input:focus{
+        outline: none;
+        width: 220px;
+        transition: width 200ms ease-out;
+}
+}

@@ -1,0 +1,20 @@
+.body{
+    padding-top: 45px;
+    display: flex;
+}
+
+
+.body__margin--sm{
+    padding-top: 25px;
+}
+
+.body__column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+.body__column > div {
+    margin-bottom: 10px;
+}
+

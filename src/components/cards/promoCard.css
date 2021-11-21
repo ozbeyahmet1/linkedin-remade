@@ -1,0 +1,16 @@
+.promoCard--sticky{
+    position: fixed;
+    margin-top: 0px;     
+}
+
+.promoCard__image{
+    width:320px;
+    height: 260px;
+    border-radius: 7.5px;
+}
+
+@media(max-width:768px){
+    .promoCard{
+        display: none;
+    }
+}

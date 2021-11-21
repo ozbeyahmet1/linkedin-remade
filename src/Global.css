@@ -1,0 +1,361 @@
+/* COLORS */
+.color--blue{
+    color: #034d96;
+}
+
+.color--grey{
+    color: rgb(172, 172, 172);
+}
+
+.color--black{
+    color: black;
+}
+
+.color--darkGrey{
+    color:rgba(82, 82, 82, 0.784);
+}
+
+
+
+/* BACKGROUND COLOR */
+.backgroundColor--white{
+    background-color: white;
+}
+
+
+
+/* HEIGHT */
+.height--10{
+    height: 10px;
+}
+.height--145{
+    height: 145px;
+}
+.height--15{
+    height: 15px;
+}
+
+.height--20{
+    height: 20px;
+}
+.height--30{
+    height: 30px;
+}
+.height--50{
+    height: 50px;
+}
+.height--60{
+    height: 60px;
+}
+.height--70{
+    height:70px;
+}
+
+/* WIDTH */
+.width--30{
+    width:30px ;
+}
+.width--50{
+    width: 50px;
+}
+
+.width--200 {
+    width:200;
+}
+.width--220{
+    width: 220px;
+}
+
+.width--320{
+    width:320px;
+}
+.width{
+    width: 500px;
+}
+.width--540{
+    width: 540px;
+}
+
+
+
+/* MARGIN */
+
+.margin--10{
+    margin:10px;
+}
+
+.marginTop--5{
+    margin-top:5px;
+}
+
+.marginBottom--5{
+    margin-bottom:5px;
+}
+.marginRight--5{
+    margin-right:5px;
+}
+
+.marginLeft--5{
+    margin-left: 5px;
+}
+
+
+.marginTop--10{
+    margin-top:10px;
+}
+
+.marginBottom--10{
+    margin-bottom:10px;
+}
+.marginRight--10{
+    margin-right:10px;
+}
+
+.marginLeft--10{
+    margin-left: 10px;
+}
+
+
+.marginTop--15{
+    margin-top:15px;
+}
+
+.marginBottom--15{
+    margin-bottom:15px;
+}
+.marginRight--15{
+    margin-right:15px;
+}
+
+.marginLeft--15{
+    margin-left: 15px;
+}
+
+.marginTop--20{
+    margin-top:20px;
+}
+
+.marginBottom--20{
+    margin-bottom:20px;
+}
+.marginRight--20{
+    margin-right:20px;
+}
+
+.marginLeft--20{
+    margin-left: 20px;
+}
+
+
+
+
+
+/* PADDING */
+.padding--0{
+    padding:px
+}
+.padding--5{
+    padding:5px
+}
+.paddingLeft--10{
+    padding-left: 10px;
+}
+.paddingRight--10{
+    padding-right: 10px;
+}
+.padding--10{
+    padding: 10px;
+}
+
+.paddingTop--15{
+    padding-top: 15px;
+}
+
+.paddingBottom--15{
+    padding-bottom: 15px;
+}
+.padding--15{
+    padding: 15px;
+}
+
+.padding--5--10{
+    padding: 5px 10px;
+}
+
+
+
+
+/* BORDER */
+.borderBottom--gainsboro{
+    border-bottom: 1px solid gainsboro;
+}
+
+.borderTop--gainsboro{
+    border-top: 1px solid gainsboro;
+}
+
+
+
+
+
+/*  FONT SIZE */
+.fontSize--12{
+    font-size: 12px;
+}
+..fontSize--14{
+    font-size: 14px;
+}
+
+.fontSize--16{
+    font-size: 16px;
+}
+
+.fontSize--20{
+    font-size: 20px;
+}
+
+
+
+/* LINE HEIGHT */
+.lineHeight--16{
+    line-height: 16px;
+}
+.lineHeight--20{
+    line-height: 20px;
+}
+.lineHeight--24{
+    line-height: 24px;
+}
+.lineHeight--28{
+    line-height: 28px;
+}
+.lineHeight--36{
+    line-height: 36px;
+}
+
+
+
+
+/* FONT WEIGHT */
+
+.fontWeight--100{
+    font-weight: 100;
+}
+
+.fontWeight--200{
+    font-weight: 200;
+}
+
+.fontWeight--300{
+    font-weight: 300;
+}
+
+.fontWeight--400{
+    font-weight: 400;
+}
+
+.fontWeight--500{
+    font-weight: 500;
+}
+
+.fontWeight--600{
+    font-weight: 600;
+}
+
+.fontWeight--700{
+    font-weight: 700;
+}
+
+.fontWeight--800{
+    font-weight: 800;
+}
+
+
+
+
+/* DISPLAY */
+
+.display--flex {
+    display: flex;
+}
+
+/* FLEX-DIRECTION */
+.flexDirection--column{
+    flex-direction: column;
+}
+
+
+
+/* ALIGNMENT */
+
+.alignItems--center{
+    align-items: center;
+}
+
+.textAlign--center{
+    text-align: center;
+}
+
+.justifyContent--space-between{
+    justify-content: space-between;
+}
+
+.justifyContent--flex-start{
+    justify-content: flex-start;
+}
+
+
+
+
+
+/* CURSOR */
+.cursor--pointer{
+    cursor:pointer;
+}
+
+
+
+/* BOX-SHADOW */
+.boxShadow{
+    box-shadow:0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
+}
+/* BORDER */
+
+.border--grey{
+    border:1px solid  rgb(117, 117, 117);
+}
+/* BORDER RADİUS */
+
+.borderRadius--8{
+    border-radius: 8px;
+}
+.borderRadius--20{
+    border-radius: 20px;
+}
+.borderRadius--full{
+    border-radius: 100%;
+}
+/* TRANSITION */
+.transition--400ms{
+    transition: 0.4s;
+}
+
+/* HOVER */
+.hover:hover{
+    transition: 0.4s;
+    background-color: rgb(173, 173, 173);
+    color: rgb(85, 85, 85);
+    border-radius: 50px;
+    
+}
+
+.hovertextDecoration--underline:hover{
+    text-decoration: underline;
+}
+
+
+/* STICKY */
+.sticky--top{
+    margin-top:0;
+    position: fixed;
+}

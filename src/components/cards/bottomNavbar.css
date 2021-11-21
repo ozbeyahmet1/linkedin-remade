@@ -1,0 +1,143 @@
+.bottomNavbar{
+  display: flex;
+  flex-direction:column; 
+}
+
+.bottomNavbar__body{
+  position: fixed;
+  bottom: 50px;
+  width: 100vw;
+  background-color: white;
+  height: 100%;
+  z-index: 9999;
+  margin-bottom: -10%;
+}
+
+.shareDropdown__navbar{
+  display:flex;
+  padding: 20px;
+  width: 90%;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.shareDropdown__clearIcon{
+  color: rgb(163, 163, 163);
+}
+
+.shareDropdown__clearIcon:hover{
+  color: black;
+}
+
+.shareDropdown__profile{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.shareDropdown__profile > h4{
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.shareDropdown__image{
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.shareDropdown__textarea{
+  border: none;
+  margin: 15px;
+  width: 80%;
+  height: 100px;
+  outline: none;
+  resize: none;
+  font-family: inherit;
+  fontSize: 16px;
+  overflow: auto;
+  overflow-y: hidden;
+  margin-bottom :50px;
+}
+
+.shareDropdown__button{
+padding: 15px;
+width:96%;
+border-radius:50px;
+background-color:white;
+border:1px solid grey;
+transition: all 0.4s;
+}
+
+.shareDropdown__button:hover{
+  background-color: rgb(212, 212, 212);
+}
+
+.shareDropdown__tags{
+  border-top:1px solid grey;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.shareDropdown__tags > div{
+  display: flex;
+  padding: 10px;
+  font-size: 18px;
+  color: rgb(63, 63, 63);
+  margin-top: 15px;
+}
+
+.shareDropdown__tags > div >h4{
+ margin-left: 10px;
+ font-size: 18px;
+ font-weight: 500;
+}
+
+
+.bottomNavbar__navbar{
+    position:fixed;
+    bottom: 0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition-timing-function: ease-out;
+    border-top:1px solid rgb(197, 197, 197);
+    box-shadow: rgba(0, 0, 0, 0.24) 5px 3px 8px;
+}
+
+.bottomNavbar__navbar >div{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 7.5px 17.5px;
+}
+
+.bottomNavbar--close{
+  display:none;
+}
+
+@media(min-width:768px) {
+    .bottomNavbar__navbar{
+      display: none;
+    }
+    .bottomNavbar__navbar--open{
+      display: none;
+    }
+}
+
+@media(max-width:768px) {
+  .bottomNavbar__navbar--open{
+    display: flex;
+  }
+}
+
+

@@ -1,0 +1,11 @@
+.groupCard{
+    width:220px;
+    border-radius: 7.5px;
+    transition-timing-function: ease;
+    box-shadow:0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
+}
+
+.groupCard--sticky{
+    position: fixed;
+    margin-top: 0px;  
+}

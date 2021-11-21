@@ -1,0 +1,64 @@
+.dropdown__iconBlock {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown__iconText {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    align-items: center;
+}
+
+.dropdown__button {
+
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(94, 94, 94);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+
+}
+.dropdown__profile{
+     display: flex;
+      align-items: flex-start; 
+}
+
+.dropdown__userName{
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.dropdown__job{
+    font-size: 12px;
+    font-weight: 400; 
+    color: gray;
+}
+.dropdown__menuItem{
+    display:block !important;
+    padding-left:15px !important;  
+}
+
+.dropdown__menuItem > h2:first-child{
+    font-weight:800;
+  
+ }
+.dropdown__menuItem > h2{
+   font-weight:500;
+   font-size:16px;
+   margin-bottom:5px;
+}
+.dropdown__menuItem > h2:hover{
+ text-decoration: underline;
+}
+
+.dropdown__profileImage{
+    width: 50px; 
+    height: 50px;
+     border-radius:100%; 
+}

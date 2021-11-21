@@ -1,0 +1,126 @@
+.shareCard {
+    width: 540px;
+    margin-bottom:10px;
+    border-radius: 7.5px;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
+}
+
+.shareCard__inline {
+    padding: 10px 20px 2px 20px;
+}
+
+.shareCard__up {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.shareCard__image {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid white;
+    flex: 0.1;
+    margin-right: 10px;
+}
+
+.shareCard__bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.shareCard__bottom > div{
+    flex:0.20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+.shareCard__bottom > div:hover{
+    border-radius: 5px;
+}
+
+.shareCard__bottom > div > span{
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.icon--blue{
+    color: #70b5f9;
+}
+
+.icon--green{
+    color: #7fc15e;
+}
+
+.icon--orange{
+    color: #e7a33e;
+}
+
+.icon--pink{
+    color: #fc9295;
+}
+
+.shareCard__imageText{
+    line-height:52px;
+    font-size:18px;
+    font-weight:400;
+    padding-left:10px;
+}
+
+.shareCard__search {
+    flex: 0.9;
+    height: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 25px;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s;
+    width:400px;
+}
+
+.shareCard__search>h4 {
+    line-height: 50px;
+    margin-left: 20px;
+    font-size: 12px;
+    color: grey;
+}
+
+.shareCard__photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid gainsboro;
+    margin-right: 10px;
+}
+
+.shareCard__text{
+    border: 1px solid gainsboro;
+    line-height: 40px;
+    padding: 5px 15px;
+    border-radius: 25px;
+    color: grey;
+}
+
+.shareCard__iconArea{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.shareCard__icons{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.shareCard__button{
+    margin-right:10px;
+    border:1px solid gainsboro;
+    border-radius:20px;
+    cursor:pointer;
+}

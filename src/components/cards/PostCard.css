@@ -1,0 +1,171 @@
+
+.postCard{
+    width:540px;
+    border-radius: 7.5px;
+    box-shadow:0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
+}
+
+ .post__new{
+    animation: pulse 5s infinite;  
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #8cc6cab0;
+  }
+  25% {
+    background-color: #ffffff;
+  }
+  50% {
+    background-color:  #8cc6cab0;
+  }
+  75% {
+    background-color: #ffffff;
+  }
+  100% {
+    background-color: #8cc6cab0;
+  }
+} 
+
+.post__new {
+    background: linear-gradient(270deg,  #FE68A8,#3869C8,#4FDDDF,#FFDA58,#CF95FB);
+    background-size: 400% 400%;
+    -webkit-animation: post__new 10s ease infinite;
+    -moz-animation: post__new 10s ease infinite;
+    animation: post__new 10s ease infinite;
+}
+
+@-webkit-keyframes post__new {
+    0%{background-position:0%  50%}
+    50%{background-position:100%  50%}
+    100%{background-position:0%  50%}
+}
+@-moz-keyframes post__new {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes post__new {
+    0%{background-position:0% 50%}
+    25%{background-position:100% 50%}
+    50%{background-position:0% 50%}
+    75%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.postCard__info{
+    height:70px;
+    width:500px;
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+}
+
+.postCard__profileImage{
+    height: 60px;
+    width:60px;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius:100%;
+}
+
+.postcard__infoText{
+    display: flex;
+    flex-direction: column;
+}
+
+.postcard__infoText > h2{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600; 
+}
+
+.postcard__infoText > h3{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.postcard__infoText > h4{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.6)
+}
+
+.postCard__post{
+    margin-left: 15px;
+    
+}
+.postCard__image{
+    width: 100%;
+    height: 375px;
+}
+
+.postCard__emoji{
+    display: flex;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.postCard__icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+ .postCard__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex:0.2;
+    padding: 10px;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+
+.postCard__icons > div >h4 {
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: 400;
+   
+}
+
+.postCard__icons--small{
+    font-size:12px !important;
+    border-radius: 100% !important;
+    padding: 3px !important;
+    margin-right: 10px !important;
+    cursor: pointer !important;
+    color: white !important;
+}
+
+.postCard__icons--small--blue{
+    background-color: #378fe9 !important;
+}
+
+.postCard__icons--small--green{
+    background-color: rgb(109, 174, 79) !important;
+}
+
+.postCard__icons--small--red{
+    background-color: rgb(236, 92, 26) !important;
+}
+
+@media (max-width:768px){
+    .postCard{
+        width: 100%;
+        border-radius: 0;
+    }
+    .postCard__info{
+        width: 100%;
+    }
+    .postCard__image{
+        max-height: 275px;
+    }
+}

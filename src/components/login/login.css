@@ -1,0 +1,144 @@
+.login__wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+ 
+}
+
+
+.login {
+    width: 350px;
+    border-radius: 7.5px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
+    z-index: 9999;
+    
+}
+
+.login__inline{
+    padding: 25px;
+    z-index: 9999;
+}
+
+.login__inline > h4 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.login__inline > h3{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+.login__textField{
+    width:300px;
+ 
+   
+}
+
+.login__button{
+    width: 300px;
+    background-color: #0073b1;
+    color: white;
+    border-radius: 26px;
+    border:none;
+    cursor: pointer;
+}
+
+.login__button:hover{
+    background-color: #064c72;
+}
+
+.login__button > h2 {
+    font-size: 16px;
+    line-height: 52px;
+    font-weight: 600;
+
+}
+
+.login__text{
+    width: 350px;
+    border-radius: 7.5px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    z-index: 9999;
+}
+
+
+.register{
+    width: 350px;
+    border-radius: 7.5px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
+    z-index: 9999;
+}
+
+.register__navbar{
+    width:250px ;
+    top: 7.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 9999;
+}
+
+.register__navbarText{
+    top: 12.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 32px;
+    line-height: 40px;
+    width:100%;
+    align-items:center;
+    text-align: center;
+    z-index: 9999;
+}
+
+@media(max-width:768px){
+    .login__text{
+        top: 80%;
+    }
+    .login__navbar{
+        padding: 10px 20px;
+    }
+    .register__navbarText{
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        font-size: 18px;
+        line-height: 40px;
+        width:90%;
+     
+    }
+    .register{
+        width: 350px;
+        border-radius: 7.5px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow:0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
+      
+    }
+    
+}

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: rgb(197, 197, 197);
+    height: 150vh;
+    overflow: hidden;
+   
+  }
+  .containerBackground {
+    position: relative;
+    height: 150vh;
+    overflow: hidden;
+    animation: animate 10s linear infinite;
+    z-index: 9;
+  }
+  @keyframes animate {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+  .row {
+    display: inline-flex;
+    margin-left: -60px;
+    margin-top: -36px;
+    overflow: hidden;
+  }
+  .row:nth-child(even) {
+    margin-left: 1.2px;
+  }
+  .hexagon {
+    position: relative;
+    background: rgb(204, 204, 204);
+    height: 132px;
+    width: 120px;
+    margin: 1.2px;
+    transition: 2s;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  .hexagon::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 50%;
+    background: rgba(0, 0, 0, 0.03);
+  }
+  .hexagon:hover {
+    transition: 0s;
+    background: rgba(126, 156, 255, 0.8);
+  }
+
+
+  
