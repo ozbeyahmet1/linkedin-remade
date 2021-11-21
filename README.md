@@ -13,7 +13,7 @@ The project deployed on Firebase :
 [Watch Demo on Youtube](https://www.youtube.com/watch?v=q2ppCt7Puf4)
 
 
-[![Watch Demo on Youtube](https://user-images.githubusercontent.com/93555187/142357978-f5f3e5db-bc1d-4240-b74f-645c0e39de3a.jpg)](https://www.youtube.com/watch?v=q2ppCt7Puf4) 
+[![Watch Demo on Youtube](https://user-images.githubusercontent.com/93555187/142757996-0a90bdec-80f4-4126-a179-2710200683cb.png)](https://www.youtube.com/watch?v=q2ppCt7Puf4) 
 
 
 ## SCREENSHOTS
