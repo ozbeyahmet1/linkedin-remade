@@ -1,44 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-## Available Scripts
 
-In the project directory, you can run:
+## LINKEDIN-CLONE
 
-### `npm start`
+This is linkedIn-Clone with ReactJs,Redux,Firebase and Material UI.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## DEPLOYMENT
+The project deployed on Firebase :
+[Click for viewing](https://linkedin-remade.firebaseapp.com/)
 
-### `npm test`
+## DEMO
+[Watch Demo on Youtube](https://www.youtube.com/watch?v=q2ppCt7Puf4)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+[![Watch Demo on Youtube](https://user-images.githubusercontent.com/93555187/142357978-f5f3e5db-bc1d-4240-b74f-645c0e39de3a.jpg)](https://www.youtube.com/watch?v=q2ppCt7Puf4) 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## SCREENSHOTS
+Interactive Login Screen 
+![scrnli_21-11-2021 13-21-12](https://user-images.githubusercontent.com/93555187/142758106-c4b749f9-de55-4961-9dbb-95cb7ecc4f42.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Light UI 
+![scrnli_21-11-2021 13-14-41](https://user-images.githubusercontent.com/93555187/142757956-c82bccae-a8f7-4303-93c2-30f3552d8973.png)
 
-### `npm run eject`
+Dark UI
+![scrnli_21-11-2021 13-09-50](https://user-images.githubusercontent.com/93555187/142757996-0a90bdec-80f4-4126-a179-2710200683cb.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Share Post Functionality
+![scrnli_21-11-2021 13-17-31](https://user-images.githubusercontent.com/93555187/142758029-ab49cea4-fedf-4f0b-a3cf-c215dd330401.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+New Post Screen
+![scrnli_21-11-2021 13-17-31](https://user-images.githubusercontent.com/93555187/142758076-4c33ee45-f1c3-44cb-a490-0226d46e37e6.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
